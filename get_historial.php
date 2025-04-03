@@ -4,10 +4,10 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Methods: GET, OPTIONS");
 
-$host = "localhost";  
-$user = "root";       
-$password = "";       
-$database = "freshbox";
+$host = "134.199.211.202";  
+$user = "ana";       
+$password = "ana123";       
+$database = "freshBox"; 
 
 $conn = new mysqli($host, $user, $password, $database);
 
